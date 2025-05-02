@@ -16,6 +16,12 @@ This is a basic Ethereum smart contract project developed using [Hardhat](https:
 ├── README.md
 ```
 
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat ignition deploy ./ignition/modules/Lock.js
+
 ## ⚙️ Features
 
 - ✅ Store and retrieve a number on-chain
@@ -49,10 +55,8 @@ Create a `.env` file in the root directory and add the following:
 
 ```env
 GANACHE_PRIVATE_KEY=your_private_key
-GANACHE_RPC_URL=http://127.0.0.1:8545
+GANACHE_RPC_URL=ganache_RPC_URL
 ```
-
-> ⚠️ Never commit `.env` files or real private keys to GitHub.
 
 ## 🧪 Running Tests
 

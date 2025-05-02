@@ -16,11 +16,13 @@ This is a basic Ethereum smart contract project developed using [Hardhat](https:
 ├── README.md
 ```
 
+```
 npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
+```
 
 ## ⚙️ Features
 

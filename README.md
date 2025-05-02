@@ -34,7 +34,7 @@ This is a basic Ethereum smart contract project developed using [Hardhat](https:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/hardhat-simple-storage-fcc.git
+git clone https://github.com/Working-Boy/hardhat-simple-storage-fcc.git
 cd hardhat-simple-storage-fcc
 
 # Install dependencies

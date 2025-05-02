@@ -49,7 +49,7 @@ Create a `.env` file in the root directory and add the following:
 
 ```env
 GANACHE_PRIVATE_KEY=your_private_key
-GANACHE_RPC_URL=http://127.0.0.1:8545
+GANACHE_RPC_URL=your_RPC_URL
 ```
 
 > ⚠️ Never commit `.env` files or real private keys to GitHub.

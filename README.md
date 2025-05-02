@@ -1,18 +1,94 @@
-<<<<<<< HEAD
-# Sample Hardhat Project
+# Hardhat Simple Storage Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This is a basic Ethereum smart contract project developed using [Hardhat](https://hardhat.org/). It includes a simple storage contract that allows users to store and retrieve a favorite number, along with a complete testing and deployment setup.
 
-Try running some of the following tasks:
+## 📁 Project Structure
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
-=======
-# hardhat-simple-storage-fcc
-A simple smart contract project using Hardhat that stores and retrieves a favorite number on the Ethereum blockchain. Includes full testing with Chai and deployment scripting. Built as part of the FreeCodeCamp Web3 development tutorial.
->>>>>>> ea78afde3c548666e2958360c319162daddc5cbc
+├── contracts/              # Solidity smart contracts
+│   └── SimpleStorage.sol
+├── scripts/                # Deployment scripts
+├── test/                   # JavaScript tests using Hardhat & Chai
+├── hardhat.config.js       # Hardhat configuration
+├── .env                    # Environment variables (e.g., private keys, RPC URLs)
+├── .gitignore
+├── package.json
+├── README.md
+```
+
+## ⚙️ Features
+
+- ✅ Store and retrieve a number on-chain
+- ✅ Unit testing with Chai
+- ✅ Gas reporting and code coverage
+- ✅ Compatible with local (Hardhat/Ganache) and public networks
+- ✅ Environment variable support for private key and RPC URL
+
+## 🔧 Prerequisites
+
+- Node.js
+- Yarn or npm
+- Hardhat (installed locally or globally)
+
+## 🚀 Setup & Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/hardhat-simple-storage-fcc.git
+cd hardhat-simple-storage-fcc
+
+# Install dependencies
+yarn install
+# or
+npm install
+```
+
+## 🔐 Environment Setup
+
+Create a `.env` file in the root directory and add the following:
+
+```env
+GANACHE_PRIVATE_KEY=your_private_key
+GANACHE_RPC_URL=http://127.0.0.1:8545
+```
+
+> ⚠️ Never commit `.env` files or real private keys to GitHub.
+
+## 🧪 Running Tests
+
+```bash
+npx hardhat test
+```
+
+To see gas reports and coverage:
+
+```bash
+npx hardhat coverage
+```
+
+## 📦 Compile Contracts
+
+```bash
+npx hardhat compile
+```
+
+## 🛰️ Deploy Contract
+
+```bash
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+> Replace `localhost` with `ganache` or your configured network.
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Author
+
+**Adeyanju Quasim**  
+📧 quasim132@gmail.com  
+🐦 [@BOSSMAN96048872](https://twitter.com/BOSSMAN96048872)  
+💻 [LinkedIn](https://linkedin.com/in/your-link)

@@ -16,6 +16,7 @@ This is a basic Ethereum smart contract project developed using [Hardhat](https:
 ├── README.md
 ```
 
+## Try Running:
 ```
 npx hardhat help
 npx hardhat test

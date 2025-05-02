@@ -89,6 +89,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **ADEYANJU QUASIM**  
-📧 quasim132@gmail.com  
+📧 workingboyquasim@gmail.com  
 🐦 [@Working_Defi](https://twitter.com/Working_Defi)  
 💻 [LinkedIn](https://linkedin.com/in/your-link)

@@ -34,7 +34,11 @@ This is a basic Ethereum smart contract project developed using [Hardhat](https:
 
 ```bash
 # Clone the repository
+<<<<<<< HEAD
 git clone https://github.com/Working-Boy/hardhat-simple-storage-fcc.git
+=======
+git clone https://github.com/QUASIM-10/hardhat-simple-storage-fcc.git
+>>>>>>> f3095c2 (updated README files)
 cd hardhat-simple-storage-fcc
 
 # Install dependencies
@@ -89,6 +93,10 @@ This project is open-source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **ADEYANJU QUASIM**  
+<<<<<<< HEAD
 📧 workingboyquasim@gmail.com  
+=======
+📧 quasim132@gmail.com  
+>>>>>>> f3095c2 (updated README files)
 🐦 [@Working_Defi](https://twitter.com/Working_Defi)  
 💻 [LinkedIn](https://linkedin.com/in/your-link)

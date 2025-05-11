@@ -16,7 +16,7 @@ yarn hardhat node  // RUN THIS TO VIEW DEFAULT hardhat DIFFERENT ACCOUNTS AND TH
 // yarn hardhat run scripts/deploy.js   // TO DEPLOY THE CONTRACT WITH GANACHE DEFAULT(IN-BUILT) NETWORK.
 // yarn hardhat run scripts/deploy.js --network ganache    // TO DEPLOY THE CONTRACT WITH A SPECIFIC NETWORK(ganache) AND IT SETUP CAN BE FOUND IN hardhat.config.js FILE.
 
-8:50:00 to 9:00:00 TALKSABOUT HOW TO VERIFY A TRANSACTION ON THE MAINNET.
+8:50:00 to 9:00:00 TALKS ABOUT HOW TO VERIFY A TRANSACTION ON THE MAINNET.
 
 
 hardhat gas reporter:
@@ -40,6 +40,7 @@ gasReporter: {
     ......,
 } // ALSO ADD gas_Report.txt file to your .gitignore file.
 // TO DISABLE THE gas_Report FUNCTION, JUST SET enabled: false  
+///////// gasReport displays how much gas it is going to cost us if we deploy our contract on a real NETWORK
 
 
 // SOLIDITY COVERAGE
@@ -57,4 +58,8 @@ THE BELOW DIAGRAM WILL BE DISPLAYED AS OUR code coverage
 
 // FROM THE ABOVE DIAGRAM, The output you’re seeing indicates that your tests have passed successfully, and the code coverage for your project is 100%.
 
+tasks file is used for plug-ins while scripts file is used for local development..
 
+
+
+// typeScript VERSION FROM 9:52:00 - 10:02:00
